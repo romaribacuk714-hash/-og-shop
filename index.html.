@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <title>OG SHOP — каталог</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#090909;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 20px}
+    header{border-bottom:1px solid #252525;background:#090909;position:sticky;top:0;z-index:5}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-size:25px;font-weight:900;letter-spacing:3px}.logo span{color:#a3ff3f}
+    .nav a{font-size:13px;color:#bbb}.hero{padding:76px 0 60px;border-bottom:1px solid #222}
+    .tag{color:#a3ff3f;text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:bold}
+    h1{font-size:clamp(44px,9vw,88px);line-height:.94;letter-spacing:-4px;margin:18px 0}
+    h1 span{color:#a3ff3f}.hero p{color:#aaa;max-width:460px;line-height:1.6}
+    .btn{display:inline-block;background:#a3ff3f;color:#090909;padding:14px 22px;font-weight:800;font-size:12px;letter-spacing:1px;margin-top:18px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;margin:38px 0 22px}
+    h2{font-size:25px;margin:0}.muted{color:#777;font-size:12px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:65px}
+    .item{background:#111;border:1px solid #252525;overflow:hidden}
+    .photo{height:230px;background:linear-gradient(135deg,#1b1b1b,#303030);display:flex;align-items:center;justify-content:center;color:#666;font-size:12px;letter-spacing:2px}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    .info{padding:17px}.info h3{margin:0 0 8px;font-size:16px}.desc{color:#888;font-size:12px;line-height:1.5;min-height:34px}
+    .bottom{display:flex;justify-content:space-between;align-items:center;margin-top:16px}.price{font-weight:800}
+    .order{font-size:11px;color:#a3ff3f;border:1px solid #a3ff3f;padding:9px 12px}
+    footer{border-top:1px solid #252525;padding:25px 0;color:#777;font-size:12px}
+    @media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.photo{height:190px}.hero{padding:58px 0 45px}}
+    @media(max-width:480px){.grid{grid-template-columns:1fr 1fr;gap:9px}.wrap{padding:0 12px}.photo{height:150px}.info{padding:12px}.info h3{font-size:14px}.desc{font-size:11px}.order{padding:8px}.logo{font-size:21px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#">OG<span>.</span>SHOP</a><a href="#catalog">КАТАЛОГ　↓</a></div></header>
+<main>
+  <section class="hero"><div class="wrap">
+    <div class="tag">Independent online store</div>
+    <h1>YOUR STYLE.<br><span>YOUR RULES.</span></h1>
+    <p>Добро пожаловать в OG SHOP. Выбирай товары в каталоге и узнавай подробности через Telegram.</p>
+    <a class="btn" href="#catalog">СМОТРЕТЬ КАТАЛОГ</a>
+  </div></section>
+  <section class="wrap" id="catalog">
+    <div class="section-head"><div><div class="tag">OG selection</div><h2>Каталог</h2></div><div class="muted">DEMO COLLECTION</div></div>
+    <div class="grid">
+      <article class="item"><div class="photo">ФОТО ТОВАРА 01</div><div class="info"><h3>Товар №01</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">500 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+      <article class="item"><div class="photo">ФОТО ТОВАРА 02</div><div class="info"><h3>Товар №02</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">750 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+      <article class="item"><div class="photo">ФОТО ТОВАРА 03</div><div class="info"><h3>Товар №03</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">1 000 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+      <article class="item"><div class="photo">ФОТО ТОВАРА 04</div><div class="info"><h3>Товар №04</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">1 250 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+      <article class="item"><div class="photo">ФОТО ТОВАРА 05</div><div class="info"><h3>Товар №05</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">1 500 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+      <article class="item"><div class="photo">ФОТО ТОВАРА 06</div><div class="info"><h3>Товар №06</h3><div class="desc">Добавь описание товара здесь.</div><div class="bottom"><span class="price">2 000 ₴</span><a class="order" href="https://t.me/">УЗНАТЬ</a></div></div></article>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© 2026 OG SHOP · Все права защищены</div></footer>
+</body>
+</html>
 
